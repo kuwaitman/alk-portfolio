@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/ak-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/ak-portfolio/' : '',
+  // basePath: process.env.NODE_ENV === 'production' ? '/ak-portfolio' : '',
+  // assetPrefix: process.env.NODE_ENV === 'production' ? '/ak-portfolio/' : '',
   eslint: {
     ignoreDuringBuilds: true, // Temporarily ignore ESLint errors for deployment
   },
