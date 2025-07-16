@@ -16,7 +16,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Handle form submission here
-    console.log('Form submitted:', formData)
+    // console.log('Form submitted:', formData)
     // You can integrate with a form service like Formspree, Netlify Forms, etc.
   }
 
@@ -63,7 +63,7 @@ export default function ContactPage() {
               Get In Touch
             </h1>
             <p className="text-text-secondary text-lg max-w-2xl mx-auto">
-              Ready to start your next project? Let's discuss how I can help bring your vision to life.
+              Ready to start your next project? Let&apos;s discuss how I can help bring your vision to life.
             </p>
           </motion.div>
 

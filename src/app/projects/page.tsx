@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, Download, FileText } from 'lucide-react'
+import { ExternalLink, Github, FileText } from 'lucide-react'
 import { projects, getProjectsByCategory } from '@/data/projects'
 
 export default function ProjectsPage() {
@@ -23,7 +23,7 @@ export default function ProjectsPage() {
 
     // Filter by category
     if (selectedCategory !== 'all') {
-      filtered = getProjectsByCategory(selectedCategory as any)
+      filtered = getProjectsByCategory(selectedCategory as keyof typeof getProjectsByCategory)
     }
 
     // Filter by search term

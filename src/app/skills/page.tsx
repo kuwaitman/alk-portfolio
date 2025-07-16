@@ -6,7 +6,6 @@ import { skills, getSkillsByCategory, getSkillCategories } from '@/data/skills'
 import { 
   Code, 
   Database, 
-  Globe, 
   Shield, 
   Search, 
   Brain, 
@@ -53,7 +52,7 @@ export default function SkillsPage() {
 
   const filteredSkills = selectedCategory === 'all' 
     ? skills 
-    : getSkillsByCategory(selectedCategory as any)
+    : getSkillsByCategory(selectedCategory as keyof typeof getSkillsByCategory)
 
   const containerVariants = {
     hidden: { opacity: 0 },
