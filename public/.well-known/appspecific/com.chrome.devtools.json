@@ -1,0 +1,7 @@
+{
+  "name": "AK Portfolio",
+  "description": "Abdulrahman Al-Khulaifi - Web Developer Portfolio",
+  "version": "1.0.0",
+  "type": "web",
+  "framework": "next.js"
+} 
