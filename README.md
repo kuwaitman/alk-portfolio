@@ -14,13 +14,13 @@ A modern, dark-themed portfolio website showcasing 20+ years of web development 
 
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
 - **Fonts**: Inter + JetBrains Mono
-- **Deployment**: GitHub Pages
+- **Deployment**: GitHub Pages / Netlify
 
 ## 📦 Installation
 
